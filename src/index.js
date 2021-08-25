@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { TodoApp } from './components/08-reducer/TodoApp';
 // import { MemoHook } from './components/06-memos/MemoHook';
- import { Padre } from './components/07-tarea-memo/Padre';
+//  import { Padre } from './components/07-tarea-memo/Padre';
 // import { Memorize } from './components/06-memos/Memorize';
 //import { RealExampleRef } from './components/04-useRef/RealExampleRef';
 // import { Layout } from './components/05-useLayoutEffect/Layout';
@@ -16,7 +17,9 @@ import ReactDOM from 'react-dom';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Padre />
+    <TodoApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// import './components/08-reducer/intro-reducer';
