@@ -1,8 +1,8 @@
 import React from 'react'
 import { useForm } from '../../hooks/useForm';
 
-export const TodoAdd = ({ handleAddTodo }) => {
-    const [values, handleInputChange, reset] = useForm({ description:'' });
+export const TodoAdd = ({ handleAddTodo}) => {
+    const [values, handleInputChange, reset] = useForm({ description: '' });
 
     const handleSubmit = (e) =>{
         e.preventDefault();
